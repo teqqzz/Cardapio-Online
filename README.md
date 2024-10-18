@@ -1,6 +1,6 @@
 # Cardápio Online - Sistema de Cardápio Digital
 Resumo do Projeto
-Este projeto tem como objetivo o desenvolvimento de um sistema de cardápio online, utilizando C# para o back-end, implementado por meio de uma API RESTful, e React para o front-end. O sistema oferece funcionalidades como a exibição de categorias de itens e o detalhamento dos produtos oferecidos pelo restaurante. Além disso, permite que os usuários simulem pedidos, verifiquem o valor total e gerem um ticket de compra, mantendo controle do preço antes de efetuar o pedido.
+Este projeto tem como objetivo o desenvolvimento de um sistema de cardápio online, utilizando C# para o back-end, implementado por meio de uma API, e React para o front-end. O sistema oferece funcionalidades como a exibição de categorias de itens e o detalhamento dos produtos oferecidos pelo restaurante. Além disso, permite que os usuários simulem pedidos, verifiquem o valor total e gerem um ticket de compra, mantendo controle do preço antes de efetuar o pedido.
 
 Futuramente, o sistema poderá ser expandido com a adição de novas funcionalidades e integrações com outras plataformas.
 
