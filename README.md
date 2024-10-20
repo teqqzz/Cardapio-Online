@@ -22,3 +22,12 @@ Cálculo Total de Pedido: O sistema atualiza automaticamente o valor total confo
 
 Geração de Ticket: No final, o sistema gera um ticket detalhado com os itens selecionados e o valor total, simulando a conclusão do pedido.
 
+
+
+
+
+
+
+
+# VÍDEO DESCRITIVO DO PROJETO 
+https://www.youtube.com/watch?v=du8nrXslnYg
