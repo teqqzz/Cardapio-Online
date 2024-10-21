@@ -24,10 +24,9 @@ Geração de Ticket: No final, o sistema gera um ticket detalhado com os itens s
 
 
 
-
-
-
-
-
 # VÍDEO DESCRITIVO DO PROJETO 
 https://www.youtube.com/watch?v=du8nrXslnYg
+
+
+# DESCRIÇÃO DO PROJETO
+https://docs.google.com/document/d/1kDYgbYD4kjyjcwUKBznt8x4Jbu7YkO41tlC6iBAvWp0/edit?usp=sharing
