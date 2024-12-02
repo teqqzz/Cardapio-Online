@@ -1,0 +1,56 @@
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.busca-pedido {
+    margin-bottom: 20px;
+}
+
+.busca-pedido label {
+    margin-right: 10px;
+}
+
+.pedidos {
+    display: flex;
+    flex-direction: column;
+}
+
+.pedido-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.detalles-pedido h4 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.detalhe-item {
+    margin-bottom: 10px;
+}
+
+.todos-pedidos {
+    margin-top: 30px;
+}
+
+button {
+    background-color: #6f4e37;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5a3a2e;
+}
