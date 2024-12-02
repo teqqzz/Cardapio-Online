@@ -1,0 +1,244 @@
+/* Estilo Global */
+body {
+    background-color: #f5f5dc; /* Fundo creme */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #6f4e37; /* Café */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase; /* Maiúsculas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  /* Navegação */
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: #6f4e37;
+    border: 2px solid #6f4e37;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav ul li a:hover {
+    background-color: #6f4e37;
+    color: white;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsividade */
+  .chamar-garcom {
+    background-color: rgb(206, 118, 17);
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+    
+  .chamar-garcom:hover {
+    background-color: darkred;
+  }
+  
+  .chamar-garcom {
+    font-size: 16px;
+    padding: 14px 25px;
+  }
+  
+  /* Navegação (mantém o layout existente) */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: #6f4e37;
+    border: 2px solid #6f4e37;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav ul li a:hover {
+    background-color: #6f4e37;
+    color: white;
+  }
+  
+  /* Estilo dos itens */
+  .item-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .item-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .item-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .item-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .item-card h3 {
+    margin: 10px 0;
+    color: #6f4e37;
+  }
+  
+  .item-card p {
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  .item-card button {
+    background-color: #6f4e37;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .item-card button:hover {
+    background-color: #5a3a2e;
+  }
+
+
+  .container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #8B4513;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #8B4513;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid #8B4513;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background-color: #8B4513;
+    color: white;
+  }
+  
+  .content section {
+    margin-bottom: 30px;
+  }
+  
+  .item-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .item-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    background-color: #fff;
+    transition: box-shadow 0.3s;
+  }
+  
+  .item-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .item-image {
+    max-width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  button {
+    background-color: #8B4513;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #a4512b;
+  }
+  
+
+  

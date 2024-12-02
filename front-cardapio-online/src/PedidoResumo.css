@@ -1,0 +1,36 @@
+.pedido-resumo {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+  }
+  
+  .pedido-resumo h2 {
+    text-align: center;
+    color: #6f4e37;
+    margin-bottom: 16px;
+  }
+  
+  .pedido-resumo ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .pedido-resumo ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .pedido-resumo ul li button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

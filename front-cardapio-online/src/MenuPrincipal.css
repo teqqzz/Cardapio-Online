@@ -1,0 +1,60 @@
+body {
+    background-color: #f5f5dc;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-principal h1 {
+    text-align: center;
+    color: #6f4e37;
+    margin: 20px 0;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  button {
+    background-color: #6f4e37;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #5a3a2e;
+  }
+  
+  .chamar-garcom {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
